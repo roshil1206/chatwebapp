@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://roshil:roshil@cluster0-lp9kw.gcp.mongodb.net/CHATAPP?retryWrites=true&w=majority')
+mongoose.connect('CONNECTION STRING')
 
 const {connection, Schema} = mongoose;
 
